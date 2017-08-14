@@ -1,2 +1,2 @@
-# Xamarin.Forms-Samples
-Samples for Xamarin.Forms
+# Xamarin
+Samples for Xamarin
