@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto04.View.TelaPrincipal"
+             x:Name="TelaPrincipal"
+    xmlns:convert="clr-namespace:Projeto04.Converter;assembly=Projeto04">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <convert:FinalizadoConverter x:Key="cvtFinalizado"></convert:FinalizadoConverter>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Entry x:Name="Tarefa" Text="{Binding TarefaAtual.Nome}" Placeholder="Digite a nova tarefa" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"></Entry>
+      <Button Text="Salvar"  BackgroundColor="LightGray" Command="{Binding SalvarCommand}" HorizontalOptions="FillAndExpand"></Button>      
+    </StackLayout>
+
+    <Label Text="Lista de Tarefas" HorizontalOptions="Center" FontAttributes="Bold" FontSize="24"></Label>
+    
+    <ListView x:Name="ListaTarefas" ItemsSource="{Binding Tarefas}" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.ContextActions>
+                <MenuItem Text="Excluir" Command="{Binding Source={x:Reference TelaPrincipal}, Path=BindingContext.ExcluirTarefaCommand}" CommandParameter="{Binding .}"></MenuItem>
+                <MenuItem Text="Editar" Command="{Binding Source={x:Reference TelaPrincipal}, Path=BindingContext.EditarTarefaCommand}" CommandParameter="{Binding .}"></MenuItem>
+            </ViewCell.ContextActions>
+            <StackLayout Orientation="Horizontal" Padding="10, 5, 10, 5">
+              <Label Text="{Binding Nome}" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
+               <Button Image="{Binding Finalizado, Converter={StaticResource cvtFinalizado}}" BorderWidth="0" BackgroundColor="Transparent" Command="{Binding Source={x:Reference TelaPrincipal}, Path=BindingContext.MudarSituacaoCommand}" CommandParameter="{Binding .}" VerticalOptions="Center" HorizontalOptions="End"></Button>
+            </StackLayout>
+            
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    
+  </StackLayout>
+</ContentPage>

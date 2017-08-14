@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto03.Views.TelaListaPessoa">
+  <StackLayout>
+    <Label Text="Listagem de pessoas" FontSize="18" HorizontalOptions="Center" />
+    
+    <ListView ItemsSource="{Binding Pessoas}" ItemTapped="ListView_ItemDetail">
+      <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!--
+          <ViewCell>
+            
+            <StackLayout Padding="20">
+              <Label Text="{Binding Nome}"></Label>
+            </StackLayout>
+            
+          </ViewCell>
+            -->
+                    <!--<TextCell Text="{Binding Nome}" Detail="{Binding Cargo}" TextColor="White" DetailColor="Aqua"></TextCell>-->
+                    <!--<TextCell Text="{Binding Nome}"></TextCell>-->
+                    <ImageCell ImageSource="https://image.freepik.com/icones-gratis/usuario-masculino-imagem-no-perfil_318-37825.jpg"  Text="{Binding Nome}" Detail="{Binding Cargo}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+
+</ContentPage>

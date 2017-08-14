@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Nav"
+             x:Class="Nav.MainPage">
+    <StackLayout>
+        <Button Text="Navigation Call" Clicked="Button_Clicked" />
+        <Button Text="Navigation Modal Call" Clicked="Button_Clicked_Modal"/>
+
+        <Button Text="Modal(Plugin)" Clicked="Button_Clicked_PluginModalRG" />
+    </StackLayout>
+
+</ContentPage>

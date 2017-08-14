@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto05.View.StackLayoutPage">
+  <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+    <StackLayout Orientation="Vertical" Spacing="0" Padding="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <BoxView Color="Blue"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Yellow"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Green"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <BoxView Color="Blue"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Yellow"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Green"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+    </StackLayout>
+
+    <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <BoxView Color="Blue"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Yellow"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+      <BoxView Color="Green"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></BoxView>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <Label Text="Digite seu nome" WidthRequest="150"></Label>
+      <Entry Placeholder="Ex.: José Ribeiro Souza" HorizontalOptions="FillAndExpand"></Entry>
+    </StackLayout>
+    
+    
+  </StackLayout>
+</ContentPage>

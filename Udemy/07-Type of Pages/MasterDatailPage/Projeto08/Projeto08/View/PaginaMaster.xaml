@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto08.View.PaginaMaster"
+             xmlns:local="clr-namespace:Projeto08.View;assembly=Projeto08">
+  
+  <MasterDetailPage.Master>
+    <ContentPage Title="Menu" Icon="menu_icone.png">
+      <StackLayout>
+        <Button Text="Inicial" Clicked="ButtonPagina1_OnClicked"></Button>
+        <Button Text="Pagina 2" Clicked="ButtonPagina2_OnClicked"></Button>
+      </StackLayout>
+    </ContentPage>
+  </MasterDetailPage.Master>
+  <MasterDetailPage.Detail>
+    <local:PaginaConteudo></local:PaginaConteudo>
+  </MasterDetailPage.Detail>
+  
+</MasterDetailPage>
