@@ -1,0 +1,15 @@
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\FirstApp.dll
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\FirstApp.pdb
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Core.dll
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Platform.dll
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Xaml.dll
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Core.pdb
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Core.xml
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Platform.pdb
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\bin\Release\Xamarin.Forms.Xaml.xml
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\obj\Release\FirstApp.csproj.CoreCompileInputs.cache
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\obj\Release\FirstApp.MainPage.xaml.g.cs
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\obj\Release\FirstApp.App.xaml.g.cs
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\obj\Release\FirstApp.dll
+C:\PROJETOS_GITHUB\Xamarin-Andre\EDX\Intro Xamarin Forms\FirstApp\FirstApp\FirstApp\obj\Release\FirstApp.pdb
