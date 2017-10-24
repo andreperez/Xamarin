@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App10"
+             xmlns:translate="clr-namespace:App10.Helpers"             
+             x:Class="App10.MainPage">
+
+    <StackLayout>
+    <Label Text="{translate:Translate LBL_NOME}" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label x:Name="LblNome" />
+    </StackLayout>
+</ContentPage>

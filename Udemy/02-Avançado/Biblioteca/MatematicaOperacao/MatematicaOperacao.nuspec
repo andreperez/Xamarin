@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Biblioteca.MatematicaOperacao</id>
+        <version>1.0.0</version>
+        <title>MatematicaOperacao</title>
+        <authors>Elias Ribeiro da Silva Costa</authors>
+        <owners>Elias Ribeiro da Silva Costa</owners>
+        <licenseUrl>https://raw.githubusercontent.com/JamesNK/Newtonsoft.Json/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://raw.githubusercontent.com</projectUrl>
+        <iconUrl>http://icon-icons.com/icons2/38/PNG/512/mathematics_4595.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Biblioteca com operações Matemáticas.</description>
+        <releaseNotes />
+        <copyright>Copyright 2017</copyright>
+        <language>pt-BR</language>
+        <tags>matematica soma</tags>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="10.0.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\MatematicaOperacao.dll" target="lib\MatematicaOperacao.dll" />
+    </files>
+</package>

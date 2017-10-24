@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App05"
+             xmlns:controls="clr-namespace:App05.Controls"
+             x:Class="App05.MainPage">
+    <StackLayout>
+	    <Label Text="Welcome to Xamarin Forms!" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+
+
+        <controls:MyControl Titulo="Titulo X1" TituloCor="Blue" Imagem="Logo1.jpg" Tapped="MyControl_Tapped" />
+        <controls:MyControl Titulo="Titulo X2" TituloCor="Red" Imagem="Logo2.jpg" />
+        <controls:MyControl Titulo="Titulo X3" TituloCor="Green" Imagem="Logo3.png" />
+        <controls:MyControl TituloCor="Yellow" />
+    </StackLayout>
+</ContentPage>
